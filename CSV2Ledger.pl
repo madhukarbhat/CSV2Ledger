@@ -653,7 +653,7 @@ while (<FH>) {
   $TT->process(
                \$Options{'TxnOutputTemplate'},
                $TempTrans,
-               $Options{'OutputFile'}
+               '>'.$Options{'OutputFile'}
               )
 }
 
